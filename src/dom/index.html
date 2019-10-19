@@ -1,0 +1,27 @@
+<html>
+<head>
+<meta charset='utf-8'>
+<title>JavaScriptの練習</title>
+</head>
+<body>
+
+
+<div>
+    <div>
+        <p>変更前</p>
+    </div>
+</div>
+
+<form>
+<input type="button" value="変更" onClick="change()">
+</form>
+
+<!-- <script type="text/javascript" src="./js/main.js"> </script> -->
+<script>
+function change(){
+    var node = document.getElementsByTagName("body");
+    node[0].childNodes[0].childNodes[0].childNodes[0].innerHTML = '変更しました';
+}
+</script>
+</body>
+</html>
