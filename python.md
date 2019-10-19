@@ -1,0 +1,13 @@
+- Webスクレイピング
+	- webbrowser
+		- pythonからブラウザを起動
+	- Requests
+		- インターネットからファイルやWebページをダウンロードする
+	- Beautiful Soup
+	- Selenium
+- Web API
+	- https://www.google.com/maps/place/住所
+- モジュールのインストール
+	- pip3 install pyperclip
+	- pip3 install requsts
+	- pip3 install beautifulsoup4
